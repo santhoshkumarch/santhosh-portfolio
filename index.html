@@ -4,98 +4,56 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Santhosh | Freelance Software Engineer</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    header p {
-      margin: 0.5rem 0 0;
-    }
-    section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    h2 {
-      color: #0070f3;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    ul li {
-      background: white;
-      padding: 0.75rem;
-      margin: 0.5rem 0;
-      border-left: 4px solid #0070f3;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-    }
-    .contact p {
-      margin: 0.5rem 0;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      background-color: #eee;
-    }
-  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <h1>Santhosh Kumar</h1>
-    <p>Senior Software Engineer | Available for Freelance Projects</p>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <header class="bg-gray-900 text-white py-10 text-center shadow-md">
+    <h1 class="text-3xl font-bold">Santhosh Kumar</h1>
+    <p class="mt-2 text-lg">Senior Software Engineer | Available for Freelance Projects</p>
   </header>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Python, JavaScript (Node.js, React), SQL</li>
-      <li>AWS (Lambda, Glue, S3, Athena), Terraform, SageMaker</li>
-      <li>PostgreSQL, MongoDB</li>
-      <li>Data Engineering: PySpark, ETL, PDF/Excel Extraction</li>
-      <li>AI Integration: LangChain, OpenAI, Gemini, ChromaDB</li>
-    </ul>
-  </section>
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">Skills</h2>
+      <ul class="space-y-3">
+        <li class="bg-white p-4 rounded shadow border-l-4 border-blue-600">Python, JavaScript (Node.js, React), SQL</li>
+        <li class="bg-white p-4 rounded shadow border-l-4 border-blue-600">AWS (Lambda, Glue, S3, Athena), Terraform, SageMaker</li>
+        <li class="bg-white p-4 rounded shadow border-l-4 border-blue-600">PostgreSQL, MongoDB</li>
+        <li class="bg-white p-4 rounded shadow border-l-4 border-blue-600">Data Engineering: PySpark, ETL, PDF/Excel Extraction</li>
+        <li class="bg-white p-4 rounded shadow border-l-4 border-blue-600">AI Integration: LangChain, OpenAI, Gemini, ChromaDB</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Project Highlights</h2>
-    <ul>
-      <li>Built AI-based invoice & GL extractor using Gemini + PostgreSQL</li>
-      <li>Automated SageMaker deployment via CDK + Step Functions</li>
-      <li>Created Chat-with-PDF tool using LangChain + Chroma</li>
-      <li>Integrated APIs like Workday, Plaid, M3</li>
-    </ul>
-  </section>
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">Project Highlights</h2>
+      <ul class="space-y-3">
+        <li class="bg-white p-4 rounded shadow border-l-4 border-blue-600">Built AI-based invoice & GL extractor using Gemini + PostgreSQL</li>
+        <li class="bg-white p-4 rounded shadow border-l-4 border-blue-600">Automated SageMaker deployment via CDK + Step Functions</li>
+        <li class="bg-white p-4 rounded shadow border-l-4 border-blue-600">Created Chat-with-PDF tool using LangChain + Chroma</li>
+        <li class="bg-white p-4 rounded shadow border-l-4 border-blue-600">Integrated APIs like Workday, Plaid, M3</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Availability</h2>
-    <p>Weekdays: 7:30 PM – 11:00 PM IST<br />
-    Weekends: Fully Available</p>
-  </section>
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">Availability</h2>
+      <p class="bg-white p-4 rounded shadow border-l-4 border-green-500">
+        Weekdays: 7:30 PM – 11:00 PM IST<br />
+        Weekends: Fully Available
+      </p>
+    </section>
 
-  <section class="contact">
-    <h2>Contact</h2>
-    <p>Email: santhosh.freelance@example.com</p>
-    <p>Phone: +91 98765 43210</p>
-    <p>GitHub: github.com/santhosh-code</p>
-  </section>
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">Contact</h2>
+      <div class="space-y-2 bg-white p-4 rounded shadow border-l-4 border-yellow-500">
+        <p><strong>Email:</strong> santhoshkumar90@hotmail.com</p>
+        <p><strong>Phone:</strong> +91 7904175862</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/santhosh-code" class="text-blue-500 hover:underline">github.com/santhosh-code</a></p>
+      </div>
+    </section>
+  </main>
 
-  <footer>
-    &copy; 2025 Santhosh Kumar. Built for freelance networking.
+  <footer class="text-center py-6 bg-gray-200 text-sm">
+    &copy; 2025 Santhosh Kumar. All rights reserved.
   </footer>
 </body>
 </html>
